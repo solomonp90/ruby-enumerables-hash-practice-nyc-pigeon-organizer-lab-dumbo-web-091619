@@ -119,6 +119,3 @@ pigeon_list[name][attributes]<<details.to_s
   end
 
 end
-
-
-end
