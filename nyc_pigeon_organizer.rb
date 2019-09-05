@@ -24,4 +24,3 @@ end	  data.each do |characteristic, specifics|
       end
     end
   end
-    new_hash
