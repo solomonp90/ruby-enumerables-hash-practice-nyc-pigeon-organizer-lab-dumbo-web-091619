@@ -5,7 +5,7 @@ data.each do |attributes,details|
     name.each do |name|
      pigeon_list[name] ||={}
      pigeon_list[name][attributes]||=[]
-     pigeon_list[name][attributes]<< details
+     pigeon_list[name][attributes]<< details.to_s
 
    end
   end
