@@ -4,7 +4,8 @@ def nyc_pigeon_organizer(data)
 # pigeon_list = {
 # names:{Theo:{},pete:{},Lucky:{},Ms_K:{},Queenie:{},Andrew:{},Alex:{}
 # }
-data = pigeon_list
+
+
 pigeon_list = {
   "Theo" => {
     :color => ["purple", "grey"],
