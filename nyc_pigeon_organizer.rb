@@ -12,6 +12,52 @@
 #  end
 #  pigeon_list
 # end
+
+
+
+
+
+# pigeon_list = {
+#   "Theo" => {
+#     :color => ["purple", "grey"],
+#     :gender => ["male"],
+#     :lives => ["Subway"]
+#   },
+#   "Peter Jr." => {
+#     :color => ["purple", "grey"],
+#     :gender => ["male"],
+#     :lives => ["Library"]
+#   },
+#   "Lucky" => {
+#     :color => ["purple"],
+#     :gender => ["male"],
+#     :lives => ["Central Park"]
+#   },
+#   "Ms. K" => {
+#     :color => ["grey", "white"],
+#     :gender => ["female"],
+#     :lives => ["Central Park"]
+#   },
+#   "Queenie" => {
+#     :color => ["white", "brown"],
+#     :gender => ["female"],
+#     :lives => ["Subway"]
+#   },
+#   "Andrew" => {
+#     :color => ["white"],
+#     :gender => ["male"],
+#     :lives => ["City Hall"]
+#   },
+#   "Alex" => {
+#     :color => ["white", "brown"],
+#     :gender => ["male"],
+#     :lives => ["Central Park"]
+#   }
+# }
+
+
+
+
 # pigeon_data = {
 #   :color => {
 #     :purple => ["Theo", "Peter Jr.", "Lucky"],
@@ -36,5 +82,7 @@
 def nyc_pigeon_organizer(data)
 pigeon_list = {}
 data.each do |attributes,details|
-  details.each do 
+  details.each do |details,name|
+    name ||={}
+    pigeon_list[name]
 end
