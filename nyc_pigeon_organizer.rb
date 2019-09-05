@@ -3,5 +3,6 @@ pigeon_list = {}
 data.each do |attributes,details|
   attributes.each do |attributes,name|
     name.each do ||={}
+      
 
 end
