@@ -81,27 +81,27 @@
 
 
 
-
-ordered_data = {}
-
-  data.each_pair { |main_attribute, values|
-   values.each_pair { |value, pigeons|
-     pigeons.each { |pigeon|
-       if !ordered_data[pigeon]
-         ordered_data[pigeon] = {}
-       end
-       if !ordered_data[pigeon][main_attribute]
-         ordered_data[pigeon][main_attribute] = []
-       end
-
-        ordered_data[pigeon][main_attribute] << value.to_s
-
-        }
-     }
-   }
-
-    p ordered_data
-end	end
+# 
+# ordered_data = {}
+#
+#   data.each_pair { |main_attribute, values|
+#    values.each_pair { |value, pigeons|
+#      pigeons.each { |pigeon|
+#        if !ordered_data[pigeon]
+#          ordered_data[pigeon] = {}
+#        end
+#        if !ordered_data[pigeon][main_attribute]
+#          ordered_data[pigeon][main_attribute] = []
+#        end
+#
+#         ordered_data[pigeon][main_attribute] << value.to_s
+#
+#         }
+#      }
+#    }
+#
+#     p ordered_data
+# end	end
 
 
 def nyc_pigeon_organizer(data)
