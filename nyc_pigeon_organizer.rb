@@ -114,7 +114,6 @@ data.each do |attributes,details|
     end
 if !pigeon_list[name][attributes]
   pigeon_list[name][attributes]=[]
-
 end
   end
 
