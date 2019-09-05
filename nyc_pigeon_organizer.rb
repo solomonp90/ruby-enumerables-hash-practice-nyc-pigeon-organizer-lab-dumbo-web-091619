@@ -1,10 +1,10 @@
 def nyc_pigeon_organizer(data)
 pigeon_list = {}
-data.each do|names,attributes|
-names.each do |names|
+data.each do|name,attributes|
+name.each do |name|
   attributes.each do |type,location|
     pigeon_list[name] ||={}
-    pigeon_list[name][]
+    pigeon_list[name][attributes]
 
 end
 
