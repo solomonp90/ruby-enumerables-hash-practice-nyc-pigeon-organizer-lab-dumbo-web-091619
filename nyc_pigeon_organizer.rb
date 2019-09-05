@@ -88,4 +88,5 @@ data.each do |attributes,details|
     pigeon_list[name][attributes]<< details.to_s
 end
 end
+pigeon_list
 end
