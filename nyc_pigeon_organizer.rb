@@ -83,10 +83,7 @@ def nyc_pigeon_organizer(data)
 pigeon_list = {}
 data.each do |attributes,details|
   details.each do |details,name|
-    name ||={}
-    pigeon_list[name][attributes]||=[]
-    pigeon_list[name][attributes]<< details.to_s
+
 end
 end
-pigeon_list
 end
