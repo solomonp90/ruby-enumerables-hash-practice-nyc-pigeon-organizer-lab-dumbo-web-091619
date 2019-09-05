@@ -113,7 +113,7 @@ data.each do |attributes,details|
         pigeon_list[name]={}
     end
 if !pigeon_list[name][attributes]
-  
+  pigeon_list[name][attributes]=[]
 
 end
   end
