@@ -81,7 +81,7 @@
 
 
 
-# 
+#
 # ordered_data = {}
 #
 #   data.each_pair { |main_attribute, values|
@@ -120,5 +120,5 @@ pigeon_list[name][attributes]<<details.to_s
 
 end
 
-pigeon_list
+
 end
