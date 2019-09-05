@@ -108,6 +108,7 @@ def nyc_pigeon_organizer(data)
 pigeon_list ={}
 data.each do|attributes,details|
   details.each do|details,name|
+    name
 
 
 
